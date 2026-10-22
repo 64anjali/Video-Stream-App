@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="nav-logo">
+            <h1>Movies🎥</h1>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Search movies..." />
+        </div>
+        <div class="nav-button">
+            <a href="favourite.html">
+                 <button class="nav-btn btn-favourite">Favourite</button>
+            </a>
+            <a href="cart.html">
+                <button class="nav-btn btn-cart">Cart</button>
+            </a>
+            <div id="auth-section">
+                <a href="Authentication/login.html">
+                    <button class="nav-btn btn-login">Login</button>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <!-- CAROUSAL -->
+     <section class="carousal-section">
+        <div id="carousal-container">
+            <!-- carousal data -->
+        </div>
+        <button onclick="changeSlide(-1)" class="carousal-btn prev">Prev</button>
+        <button onclick="changeSlide(+1)"class="carousal-btn next">Next</button>
+     </section>
+
+     <!-- Movie Section -->
+      <section class="movie-section">
+        <div class="container">
+            <div id="movies-container">
+                <!-- CARDS -->
+                 
+            </div>
+        </div>
+      </section>
+     <script src="./index.js"></script>
+</body>
+
+</html>
